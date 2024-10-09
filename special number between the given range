@@ -1,0 +1,126 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOnj0OOHGr8TJfPB2DLo3sx",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LikithaSrinivas100/python-practice/blob/main/special%20number%20between%20the%20given%20range\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 14,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FcuxH7S2X3JU",
+        "outputId": "1be604cb-3711-49e9-bbd4-098a6649a319"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "45\n",
+            "44\n",
+            "19 it is a special number\n"
+          ]
+        }
+      ],
+      "source": [
+        "#programm to find special number\n",
+        "#a 2 digit number is said to be a special number if the sum of sum of its digits and the product of its digits is equal to the number itself\n",
+        "n = int(input())\n",
+        "m = int(input())\n",
+        "for i in range(n, m+1):\n",
+        "  sum = x+y\n",
+        "  product = x*y\n",
+        "if (sum + product) == i:\n",
+        "  print(i, \"it is a special number\")\n",
+        "else:\n",
+        "    print(i, \"it is not a special number\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = 19\n",
+        "x = n//10        #to split 1st digit from the int (integer division)\n",
+        "print(x)         #to split 2nd digit from the int (modulus division)\n",
+        "y = n%10\n",
+        "print(y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LSkJErFPbniv",
+        "outputId": "b9bb7135-c67e-40d0-c3f2-56ee979982f7"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input())\n",
+        "m = int(input())\n",
+        "for i in range(n, m+1):\n",
+        "  sum = x+y\n",
+        "  product = x*y\n",
+        "if (sum + product) == i:\n",
+        "  print(i, \"it is a special number\")\n",
+        "else:\n",
+        "    print(i, \"it is not a special number\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xQoyrgaYhM2R",
+        "outputId": "11c34f00-7cab-487e-f9b9-9cfb054cb381"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "11\n",
+            "19\n",
+            "19 it is a special number\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
