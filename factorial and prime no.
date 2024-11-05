@@ -1,0 +1,132 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP4jM6bIuQuyXlrSBsVYFwL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LikithaSrinivas100/python-practice/blob/main/factorial%20and%20prime%20no.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#factorial\n",
+        "n = int(input())\n",
+        "fact = 1\n",
+        "while n > 0:\n",
+        "   fact = fact * n\n",
+        "   n = n - 1\n",
+        "print(\"factorial of\", n, \"is : \", fact)"
+      ],
+      "metadata": {
+        "id": "G98xl0_QY94t",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "782ce34d-ff0b-4fdd-8021-3282b1051893"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "factorial of 0 is :  120\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input())\n",
+        "fact = 1\n",
+        "for i in range(1,n+1):\n",
+        "    fact = fact * i\n",
+        "print(\"factorial of\", i, \"is : \",fact)"
+      ],
+      "metadata": {
+        "id": "VhLtuXhlZbMn",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "bed92fdd-19a8-4b65-8819-029f020b22cb"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "factorial of 5 is :  120\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#prime number\n",
+        "n = int(input())\n",
+        "while n>1:\n",
+        "  if n==2:\n",
+        "    print(\"prime\")\n",
+        "    break\n",
+        "  elif n%2==0:\n",
+        "    print(\"not prime\")\n",
+        "    break\n",
+        "  else:\n",
+        "    print(\"prime\")\n",
+        "    break"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i0NHQts6eDD1",
+        "outputId": "a0d4c69e-f17e-4085-c8ab-3e97b54604f0"
+      },
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n",
+            "not prime\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "-hS5NdrZf70B"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
